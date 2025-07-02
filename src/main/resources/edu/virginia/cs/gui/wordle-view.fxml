@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox id="table" fx:id="table" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.virginia.cs.gui.WordleController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="106.0" prefWidth="600.0" text="WORDLE">
+         <font>
+            <Font name="Algerian" size="50.0" />
+         </font>
+      </Label>
+      <HBox id="row1" fx:id="row1" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="60.0" prefWidth="500.0" spacing="20.0">
+         <children>
+            <TextField id="box1a" fx:id="box1a" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="100.0" prefWidth="100.0" />
+            <TextField id="box1b" fx:id="box1b" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="100.0" prefWidth="100.0" />
+            <TextField id="box1c" fx:id="box1c" alignment="CENTER" editable="false" onKeyPressed="#onTextEntry" prefHeight="100.0" prefWidth="100.0" />
+            <TextField id="box1d" fx:id="box1d" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="100.0" prefWidth="100.0" />
+            <TextField id="box1e" fx:id="box1e" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="100.0" prefWidth="100.0" />
+         </children>
+      </HBox>
+      <HBox id="row2" fx:id="row2" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="60.0" prefWidth="500.0" spacing="20.0">
+         <children>
+            <TextField id="box2a" fx:id="box2a" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box2b" fx:id="box2b" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box2c" fx:id="box2c" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box2d" fx:id="box2d" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box2e" fx:id="box2e" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+         </children>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox id="row3" fx:id="row3" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="60.0" prefWidth="500.0" spacing="20.0">
+         <children>
+            <TextField id="box3a" fx:id="box3a" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box3b" fx:id="box3b" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box3c" fx:id="box3c" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box3d" fx:id="box3d" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box3e" fx:id="box3e" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+         </children>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox id="row4" fx:id="row4" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="60.0" prefWidth="500.0" spacing="20.0">
+         <children>
+            <TextField id="box4e" fx:id="box4a" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box4e" fx:id="box4b" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box4e" fx:id="box4c" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box4e" fx:id="box4d" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box4e" fx:id="box4e" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+         </children>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox id="row5" fx:id="row5" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="60.0" prefWidth="500.0" spacing="20.0">
+         <children>
+            <TextField id="box5a" fx:id="box5a" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box5b" fx:id="box5b" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box5c" fx:id="box5c" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box5d" fx:id="box5d" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box5e" fx:id="box5e" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+         </children>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox id="row6" fx:id="row6" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="60.0" prefWidth="500.0" spacing="20.0">
+         <children>
+            <TextField id="box6a" fx:id="box6a" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box6b" fx:id="box6b" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box6c" fx:id="box6c" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box6d" fx:id="box6d" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+            <TextField id="box6e" fx:id="box6e" alignment="CENTER" editable="false" maxHeight="-Infinity" maxWidth="-Infinity" onKeyPressed="#onTextEntry" prefHeight="60.0" prefWidth="100.0" />
+         </children>
+         <VBox.margin>
+            <Insets top="20.0" />
+         </VBox.margin>
+      </HBox>
+      <Label id="errorLabel" fx:id="errorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="106.0" prefWidth="600.0" text="Invalid Text. Use backspace and try again." textFill="RED" visible="false">
+         <font>
+            <Font name="Bell MT" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
